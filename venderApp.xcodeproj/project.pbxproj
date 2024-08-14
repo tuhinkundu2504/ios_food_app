@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17F92E12C6C8C8F00432C2F /* venderAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F92E02C6C8C8F00432C2F /* venderAppApp.swift */; };
+		A17F92E32C6C8C8F00432C2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F92E22C6C8C8F00432C2F /* ContentView.swift */; };
+		A17F92E52C6C8C9000432C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17F92E42C6C8C9000432C2F /* Assets.xcassets */; };
+		A17F92E82C6C8C9000432C2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17F92E72C6C8C9000432C2F /* Preview Assets.xcassets */; };
+		A17F92F22C6C8C9000432C2F /* venderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F92F12C6C8C9000432C2F /* venderAppTests.swift */; };
+		A17F92FC2C6C8C9000432C2F /* venderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F92FB2C6C8C9000432C2F /* venderAppUITests.swift */; };
+		A17F92FE2C6C8C9000432C2F /* venderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F92FD2C6C8C9000432C2F /* venderAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17F92EE2C6C8C9000432C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17F92D52C6C8C8F00432C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17F92DC2C6C8C8F00432C2F;
+			remoteInfo = venderApp;
+		};
+		A17F92F82C6C8C9000432C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17F92D52C6C8C8F00432C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17F92DC2C6C8C8F00432C2F;
+			remoteInfo = venderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17F92DD2C6C8C8F00432C2F /* venderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = venderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17F92E02C6C8C8F00432C2F /* venderAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venderAppApp.swift; sourceTree = "<group>"; };
+		A17F92E22C6C8C8F00432C2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A17F92E42C6C8C9000432C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17F92E72C6C8C9000432C2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A17F92ED2C6C8C9000432C2F /* venderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = venderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17F92F12C6C8C9000432C2F /* venderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venderAppTests.swift; sourceTree = "<group>"; };
+		A17F92F72C6C8C9000432C2F /* venderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = venderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17F92FB2C6C8C9000432C2F /* venderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venderAppUITests.swift; sourceTree = "<group>"; };
+		A17F92FD2C6C8C9000432C2F /* venderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17F92DA2C6C8C8F00432C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92EA2C6C8C9000432C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92F42C6C8C9000432C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17F92D42C6C8C8F00432C2F = {
+			isa = PBXGroup;
+			children = (
+				A17F92DF2C6C8C8F00432C2F /* venderApp */,
+				A17F92F02C6C8C9000432C2F /* venderAppTests */,
+				A17F92FA2C6C8C9000432C2F /* venderAppUITests */,
+				A17F92DE2C6C8C8F00432C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17F92DE2C6C8C8F00432C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17F92DD2C6C8C8F00432C2F /* venderApp.app */,
+				A17F92ED2C6C8C9000432C2F /* venderAppTests.xctest */,
+				A17F92F72C6C8C9000432C2F /* venderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17F92DF2C6C8C8F00432C2F /* venderApp */ = {
+			isa = PBXGroup;
+			children = (
+				A17F92E02C6C8C8F00432C2F /* venderAppApp.swift */,
+				A17F92E22C6C8C8F00432C2F /* ContentView.swift */,
+				A17F92E42C6C8C9000432C2F /* Assets.xcassets */,
+				A17F92E62C6C8C9000432C2F /* Preview Content */,
+			);
+			path = venderApp;
+			sourceTree = "<group>";
+		};
+		A17F92E62C6C8C9000432C2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A17F92E72C6C8C9000432C2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A17F92F02C6C8C9000432C2F /* venderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17F92F12C6C8C9000432C2F /* venderAppTests.swift */,
+			);
+			path = venderAppTests;
+			sourceTree = "<group>";
+		};
+		A17F92FA2C6C8C9000432C2F /* venderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A17F92FB2C6C8C9000432C2F /* venderAppUITests.swift */,
+				A17F92FD2C6C8C9000432C2F /* venderAppUITestsLaunchTests.swift */,
+			);
+			path = venderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17F92DC2C6C8C8F00432C2F /* venderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F93012C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderApp" */;
+			buildPhases = (
+				A17F92D92C6C8C8F00432C2F /* Sources */,
+				A17F92DA2C6C8C8F00432C2F /* Frameworks */,
+				A17F92DB2C6C8C8F00432C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = venderApp;
+			productName = venderApp;
+			productReference = A17F92DD2C6C8C8F00432C2F /* venderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17F92EC2C6C8C9000432C2F /* venderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F93042C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderAppTests" */;
+			buildPhases = (
+				A17F92E92C6C8C9000432C2F /* Sources */,
+				A17F92EA2C6C8C9000432C2F /* Frameworks */,
+				A17F92EB2C6C8C9000432C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17F92EF2C6C8C9000432C2F /* PBXTargetDependency */,
+			);
+			name = venderAppTests;
+			productName = venderAppTests;
+			productReference = A17F92ED2C6C8C9000432C2F /* venderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17F92F62C6C8C9000432C2F /* venderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17F93072C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderAppUITests" */;
+			buildPhases = (
+				A17F92F32C6C8C9000432C2F /* Sources */,
+				A17F92F42C6C8C9000432C2F /* Frameworks */,
+				A17F92F52C6C8C9000432C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17F92F92C6C8C9000432C2F /* PBXTargetDependency */,
+			);
+			name = venderAppUITests;
+			productName = venderAppUITests;
+			productReference = A17F92F72C6C8C9000432C2F /* venderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17F92D52C6C8C8F00432C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A17F92DC2C6C8C8F00432C2F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A17F92EC2C6C8C9000432C2F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A17F92DC2C6C8C8F00432C2F;
+					};
+					A17F92F62C6C8C9000432C2F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A17F92DC2C6C8C8F00432C2F;
+					};
+				};
+			};
+			buildConfigurationList = A17F92D82C6C8C8F00432C2F /* Build configuration list for PBXProject "venderApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17F92D42C6C8C8F00432C2F;
+			productRefGroup = A17F92DE2C6C8C8F00432C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17F92DC2C6C8C8F00432C2F /* venderApp */,
+				A17F92EC2C6C8C9000432C2F /* venderAppTests */,
+				A17F92F62C6C8C9000432C2F /* venderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17F92DB2C6C8C8F00432C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F92E82C6C8C9000432C2F /* Preview Assets.xcassets in Resources */,
+				A17F92E52C6C8C9000432C2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92EB2C6C8C9000432C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92F52C6C8C9000432C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17F92D92C6C8C8F00432C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F92E32C6C8C8F00432C2F /* ContentView.swift in Sources */,
+				A17F92E12C6C8C8F00432C2F /* venderAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92E92C6C8C9000432C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F92F22C6C8C9000432C2F /* venderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17F92F32C6C8C9000432C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17F92FE2C6C8C9000432C2F /* venderAppUITestsLaunchTests.swift in Sources */,
+				A17F92FC2C6C8C9000432C2F /* venderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17F92EF2C6C8C9000432C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17F92DC2C6C8C8F00432C2F /* venderApp */;
+			targetProxy = A17F92EE2C6C8C9000432C2F /* PBXContainerItemProxy */;
+		};
+		A17F92F92C6C8C9000432C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17F92DC2C6C8C8F00432C2F /* venderApp */;
+			targetProxy = A17F92F82C6C8C9000432C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A17F92FF2C6C8C9000432C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17F93002C6C8C9000432C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17F93022C6C8C9000432C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"venderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17F93032C6C8C9000432C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"venderApp/Preview Content\"";
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17F93052C6C8C9000432C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/venderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/venderApp";
+			};
+			name = Debug;
+		};
+		A17F93062C6C8C9000432C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/venderApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/venderApp";
+			};
+			name = Release;
+		};
+		A17F93082C6C8C9000432C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = venderApp;
+			};
+			name = Debug;
+		};
+		A17F93092C6C8C9000432C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TKR4VP87YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuhinkundu.venderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = venderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17F92D82C6C8C8F00432C2F /* Build configuration list for PBXProject "venderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F92FF2C6C8C9000432C2F /* Debug */,
+				A17F93002C6C8C9000432C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F93012C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F93022C6C8C9000432C2F /* Debug */,
+				A17F93032C6C8C9000432C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F93042C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F93052C6C8C9000432C2F /* Debug */,
+				A17F93062C6C8C9000432C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17F93072C6C8C9000432C2F /* Build configuration list for PBXNativeTarget "venderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17F93082C6C8C9000432C2F /* Debug */,
+				A17F93092C6C8C9000432C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17F92D52C6C8C8F00432C2F /* Project object */;
+}
